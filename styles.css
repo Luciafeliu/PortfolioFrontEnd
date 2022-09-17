@@ -1,0 +1,26 @@
+body    {
+    background: rgb(221, 184, 184);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+}
+
+h1  {
+    font-size: larger;
+}
+
+.logo     {
+    height: 0.5px;
+    width: 0.5px;
+    position: left;
+    left: 0;
+    top: 0;
+}
+.logo   {
+    width: min-content;
+    height: min-content;
+}
+.encabezado  {
+    margin: 2em;
+    border: 2px red solid;
+    padding: 2em;
+}                                                                                                        
