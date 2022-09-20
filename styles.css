@@ -15,46 +15,52 @@ header img{
 
 }
 
+
 li a {
     text-decoration: none;
-    color: white;
+    color: #e5e5e5;
     padding-right: 14px;
 
 }
 
 .boton_principal {
-    background-color: skyblue;
-    color: white;
+    float: right;
+    background-color: #14213d;
+    color: #e5e5e5;
     border: none;
     cursor: pointer;
-    padding:20px;
-    margin-top:20px;
+    padding: 10px;
+    margin: 10px;
+    transition: ease 0.3s;
+}
+
+.boton_principal:hover {
+    background-color: #000000;
 }
 
 ul {
     list-style: none;
+    margin: 0;
+    padding: 0; 
+    overflow: hidden;
+    background-color: #14213d;
 }
-
-
 
 li {
     color: #efefef;
-    text-align: right;
+    float: right;
+    display: inline;
+    padding: 5px;
+    transition: ease 0.3s;
 }
 
-nav {
-
-}
-
-
-button:hover {
-    background-color: #7f9bb7;
-    box-shadow: 0 1px 2px rgba(0,0,0,0.30);
+li:hover {
+    background-color: #000000;
 }
 
 .head {
-    background-color: #364552;
-    color:white;
+    background-color: #14213d;
+    color: #e5e5e5;
     padding-top: 1rem;
     font-size: 12px;
 }
@@ -62,5 +68,13 @@ button:hover {
 .header {
     padding: 0;
 }
+
+
+#yo {
+    width: auto;
+    height: 120px;
+    
+    
+    }
 
 
