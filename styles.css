@@ -10,7 +10,7 @@
 
     body {
     margin: 0;
-    background-image: url(./imagenes/fondo.jpg);
+    background-color: rgb(255, 242, 234);
     }
 
     li{
@@ -85,8 +85,14 @@
           --bs-list-group-border-color: transparent;
         }
 
-        .banner {
-          max-width: 100%;
-          margin-top: -10%;
-          margin-bottom: -10%;
+        .banner{
+          margin-bottom: -5%  ;
+        }
+
+        .foto_nombre{
+          margin-left: 3%;
+        }
+
+        .sobre_mi {
+          margin-left: 3%;
         }
