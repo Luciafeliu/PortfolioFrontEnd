@@ -60,10 +60,13 @@
         text-align: center;
     }
 
-    h1 {
-        color: #63B8FF;
-        text-align: center; }
-      
+    .box_secundaria {
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    .sobre_mi {
+      font-family: 'Montserrat', sans-serif;
+    }
 
         i.fa-brands.fa-linkedin-in:hover {
           color: #14213d8e;
@@ -96,3 +99,17 @@
         .sobre_mi {
           margin-left: 3%;
         }
+
+        a:link{
+          color: #14213d8e;
+          text-decoration: none;
+        }
+
+        .experiencia {
+          text-align: left;
+        }
+  
+  .foto_nombre h2 {
+    font-family: 'Caveat', cursive;
+    font-size: 5rem;
+  }
